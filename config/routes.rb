@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :tenants do
+    resources :projects
+  end
   resources :members
   get 'home/index'
   root :to => "home#index"
