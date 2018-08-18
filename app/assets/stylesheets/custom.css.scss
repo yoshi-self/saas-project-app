@@ -1,3 +1,7 @@
+body {
+  padding-top: 50px;
+}
+
 .user-name {
   padding: 0 !important ;
   padding-left: 5px;
@@ -138,7 +142,7 @@
   padding-left: 0;
 }
 
-.navbar.navbar-static-top {
+.navbar.navbar-fixed-top {
   background: #000;
   color: #fff !important;
   padding-bottom: 5px;
