@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :tenants do
     resources :projects do
       get 'users', on: :member
-      get 'add_user', on: :member
+      put 'add_user', on: :member
     end
   end
   resources :members

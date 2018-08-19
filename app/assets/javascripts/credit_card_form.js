@@ -31,7 +31,7 @@ $(document).ready(function() {
   };
 
   // Initiate submit handler listener for any form with class cc_form
-  $(".cc_form").on('submit', submitHandler);
+  //$(".cc_form").on('submit', submitHandler);
 
   // Handle event of plan drop down changing
   var handlePlanChange = function(plan_type, form) {
@@ -39,7 +39,6 @@ $(document).ready(function() {
 
     if(plan_type == undefined) {
       plan_type = $('#tenant_plan :selected').val();
-    
     }
 
     if(plan_type === 'premium') {
